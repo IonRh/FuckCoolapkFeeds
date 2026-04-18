@@ -32,6 +32,11 @@ export const styles = `
   .github-container {
     margin-bottom: 2.5rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
   }
 
   .input-section {
@@ -308,6 +313,36 @@ export const styles = `
     border-radius: 6px;
   }
 
+  .rss-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #ea580c;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+  }
+
+  .rss-link:visited {
+    color: #ea580c;
+  }
+
+  .rss-link:hover {
+    color: #c2410c;
+    background-color: rgba(234, 88, 12, 0.12);
+    text-decoration: none;
+  }
+
+  .rss-link svg {
+    transition: transform 0.3s ease;
+  }
+
+  .rss-link:hover svg {
+    transform: scale(1.1);
+  }
+
   .github-link:visited {
     color: #6c757d;
   }
@@ -338,6 +373,20 @@ export const styles = `
     .github-link:hover {
       color: #3dd56d;
       background-color: rgba(61, 213, 109, 0.1);
+      text-decoration: none;
+    }
+
+    .rss-link {
+      color: #fb923c;
+    }
+
+    .rss-link:visited {
+      color: #fb923c;
+    }
+
+    .rss-link:hover {
+      color: #fdba74;
+      background-color: rgba(251, 146, 60, 0.16);
       text-decoration: none;
     }
   }

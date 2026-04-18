@@ -13,3 +13,9 @@ https://www.coolapk.com/feed/14640271
 ↓
 
 https://www.coolapk1s.com/feed/14640271
+
+## RSS
+
+Headlines RSS:
+
+https://www.coolapk1s.com/rss.xml
